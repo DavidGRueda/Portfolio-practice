@@ -1,0 +1,109 @@
+$media-size: 992px;
+$margin-inline: 22%;
+
+.work-detail {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: Heebo, sans-serif;
+  justify-content: center;
+  margin-inline: 5%;
+  margin-top: 25px;
+  text-align: flex-start;
+
+  &__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+    @media screen and (min-width: $media-size) {
+      font-size: 34px;
+      line-height: 46px;
+      margin-top: 75px;
+      margin-bottom: 10px;
+      margin-inline: $margin-inline;
+      max-width: 70%;
+    }
+
+    &--m {
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 0px;
+
+      @media screen and (min-width: $media-size) {
+        font-size: 30px;
+        line-height: 30px;
+        margin-inline: $margin-inline;
+      }
+    }
+
+    &--s {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0px;
+
+      @media screen and (min-width: $media-size) {
+        font-size: 24px;
+        line-height: 30px;
+        margin-inline: $margin-inline;
+      }
+    }
+  }
+
+  &__info {
+    flex-direction: row;
+    margin-block: 12px;
+
+    @media screen and (min-width: $media-size) {
+      margin-inline: $margin-inline;
+    }
+
+    &-year {
+      background-color: #ff7c7c;
+      border-radius: 15px;
+      color: white;
+      font-size: 18px;
+      margin-right: 25px;
+      padding-inline: 10px;
+    }
+
+    &-cat {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+
+      @media screen and (min-width: $media-size) {
+        font-size: 20px;
+        line-height: 29px;
+        margin-top: 75px;
+      }
+    }
+  }
+
+  &__desc {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $media-size) {
+      margin-inline: $margin-inline;
+    }
+  }
+
+  &__img-cont {
+    height: auto;
+    margin-bottom: 25px;
+    width: 100%;
+
+    @media screen and (min-width: $media-size) {
+      text-align: center;
+      justify-content: center;
+    }
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}

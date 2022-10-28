@@ -1,0 +1,119 @@
+$media-size: 991px;
+
+.post-container {
+  background-color: #edf7fa;
+  height: fit-content;
+
+  &__title {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 27px;
+    padding-inline: 148px;
+
+    @media screen and (max-width: $media-size) {
+      align-items: center;
+      display: flex;
+      padding-inline: 10px;
+      justify-content: center;
+    }
+
+    a {
+      color: #00a8cc;
+      font-family: Heebo, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-align: right;
+      text-decoration: none;
+    }
+
+    p {
+      font-family: Heebo, sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-align: left;
+
+      @media screen and (max-width: $media-size) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__posts {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-inline: 148px;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: $media-size) {
+      grid-template-columns: 1fr;
+      margin-inline: 10px;
+    }
+
+    &-card {
+      background-color: white;
+      box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+      border-radius: 4px;
+      color: black;
+      margin-bottom: 32px;
+      padding: 0px 21px 17px 23px;
+
+      @media screen and (max-width: $media-size) {
+        margin-bottom: 12px;
+        padding: 0px 21px 17px 23px;
+      }
+
+      &--pm {
+        font-family: Heebo, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        line-height: 26px;
+        text-align: left;
+
+        @media screen and (max-width: $media-size) {
+          font-size: 16px;
+          line-height: 23.5px;
+        }
+      }
+
+      &--ps {
+        font-family: Heebo, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+
+        @media screen and (max-width: $media-size) {
+          font-size: 16px;
+          line-height: 23.5px;
+        }
+      }
+
+      h2 {
+        font-family: Heebo, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        @media screen and (max-width: $media-size) {
+          font-size: 22px;
+          line-height: 30px;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        pointer-events: auto;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250);
+        transition: box-shadow 0.2s;
+      }
+    }
+  }
+}

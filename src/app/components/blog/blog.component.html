@@ -1,0 +1,10 @@
+<div class="blog">
+    <h1 class="blog__title">Blog</h1>
+    <div class="blog__blog-post" *ngFor="let post of blogPosts">
+        <h2 class="blog__blog-post-title">{{post.postTitle}}</h2>
+        <p class="blog__blog-post--pm">
+            {{post.postDate}}&emsp;&#124;&emsp;<span class="blog__blog-post--pm-grey">{{post.postCategories}}</span>
+        </p>
+        <p class="blog__blog-post--ps">{{post.postDescription}}</p>
+    </div>
+</div>

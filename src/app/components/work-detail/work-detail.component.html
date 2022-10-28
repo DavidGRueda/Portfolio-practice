@@ -1,0 +1,34 @@
+<div class="work-detail" *ngIf="workInfo">
+  <h1 class="work-detail__title">
+    {{
+      !!workInfo.workTitleExtended
+        ? workInfo.workTitleExtended
+        : workInfo.workTitle
+    }}
+  </h1>
+
+  <div class="work-detail__info">
+    <span class="work-detail__info-year">{{ workInfo.workYear }}</span>
+    <span class="work-detail__info-cat">{{ workInfo.workCategory }}</span>
+  </div>
+
+  <p class="work-detail__desc">{{ workInfo.workDescription }}</p>
+  <div class="work-detail__img-cont" *ngIf="workInfo.workImage_1">
+    <img src="{{ workInfo.workImage_1 }}" />
+  </div>
+  <div class="work-detail__img-cont" *ngIf="!workInfo.workImage_1">
+    <img src="{{ workInfo.workMainImageURL }}" />
+  </div>
+
+  <h2 class="work-detail__title--m">Heading 1</h2>
+  <h3 class="work-detail__title--s">Heading 2</h3>
+  <p class="work-detail__desc">{{ workInfo.workDescription }}</p>
+
+  <div class="work-detail__img-cont" *ngIf="workInfo.workImage_2">
+    <img src="{{ workInfo.workImage_2 }}" />
+  </div>
+
+  <div class="work-detail__img-cont" *ngIf="workInfo.workImage_3">
+    <img src="{{ workInfo.workImage_3 }}" />
+  </div>
+</div>

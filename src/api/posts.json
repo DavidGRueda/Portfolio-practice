@@ -1,0 +1,34 @@
+[
+    {
+      "postId": 1,
+      "postTitle": "Making a design system from scratch",
+      "postDate": "12 Feb 2020",
+      "postCategories": [" Design", " Pattern"],
+      "postDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "postId": 2,
+      "postTitle": "Creating pixel perfect icons in Figma",
+      "postDate": "12 Feb 2020",
+      "postCategories": [" Figma", " Icon Design"],
+      "postDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "postId": 3,
+      "postTitle": "UX/UI tips for elderly people",
+      "postDate": "10 Jan 2020",
+      "postCategories": [" Usability", " UX/UI"],
+      "postDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "postId": 4,
+      "postTitle": "Figma tips and tricks!",
+      "postDate": "30 Dec 2019",
+      "postCategories": [" Figma", " Tips"],
+      "postDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+]

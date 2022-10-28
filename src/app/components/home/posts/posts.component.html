@@ -1,0 +1,15 @@
+<div class="post-container" *ngIf="blogPosts.length">
+    <div class="post-container__title">
+        <p>Recent posts</p>
+        <a *ngIf="this.resize()" routerLink="/blog">View all</a>
+    </div>
+    <div class="post-container__posts">
+        <div class="post-container__posts-card" *ngFor="let post of blogPosts.slice(0, 2)" [routerLink]="['/blog']">
+            <h2>{{post.postTitle}}</h2>
+            <p class="post-container__posts-card--pm">
+                {{post.postDate}}&emsp;&#124;&emsp;{{post.postCategories}}
+            </p>
+            <p class="post-container__posts-card--ps">{{post.postDescription}}</p>
+        </div>
+    </div>
+</div>

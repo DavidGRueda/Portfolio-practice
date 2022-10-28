@@ -1,0 +1,18 @@
+<div class="feat-works" *ngIf="featWorks.length">
+    <h1 class="feat-works__title" *ngIf="this.showTitle"> Featured Works</h1>
+    <div class="feat-works__container" *ngFor="let work of this.filter()" [routerLink]="['/works', work.workId]" title="{{work.workTitle}}">
+        <div class="feat-works__container-image">
+            <img src="{{work.workMainImageURL}}" alt="{{work.workTitle}}"/>
+        </div>
+        <div class="feat-works__container-wrapper">
+            <h2 class="feat-works__container-title">{{work.workTitle}}</h2>
+            <div class="feat-works__container-info">
+                <span class="feat-works__container-info-year">{{work.workYear}}</span>
+                <span class="feat-works__container-info-cat">{{work.workCategory}}</span>
+            </div>        
+            <p class="feat-works__container-desc">
+                {{work.workDescription}}
+            </p>
+        </div>
+    </div>
+</div>

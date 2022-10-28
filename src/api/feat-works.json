@@ -1,0 +1,42 @@
+[
+    {
+      "workId": 1,
+      "workTitle": "Designing Dashboards",
+      "workTitleExtended": "Designing Dashboards with usability in mind", 
+      "workMainImageURL": "assets/work-images/dashboard.png",
+      "workImage_1": "assets/work-images/work-1-1.png",
+      "workImage_2": "assets/work-images/work-1-2.png",
+      "workImage_3": "assets/work-images/work-1-3.png",
+      "workYear": 2020,
+      "workCategory": "Dashboard",
+      "workDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "workId": 2,
+      "workTitle": "Vibrant Portraits of 2020",
+      "workMainImageURL": "assets/work-images/portraits.png",
+      "workYear": 2019,
+      "workCategory": "Illustration",
+      "workDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "workId": 3,
+      "workTitle": "36 Days of Malayalam type",
+      "workMainImageURL": "assets/work-images/typography.png",
+      "workYear": 2018,
+      "workCategory": "Typography",
+      "workDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "workId": 4,
+      "workTitle": "Components",
+      "workMainImageURL": "assets/work-images/components.png",
+      "workYear": 2018,
+      "workCategory": "Components, Design",
+      "workDescription":
+        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+  ]
